@@ -7,12 +7,13 @@ body {
 }
 
 body {
-  background-color: #5C73F2;
+  background-color: #dcdcdc;
   font-size: 12px;
 }
 
 .container {
-  margin: 17px auto;
+  margin: 15px auto;
+  height: 20px;
   width: 90%;
 }
 
@@ -34,10 +35,30 @@ div {
   width: 100%;
 }
 
+.baku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover
+}
+
+.london {
+  background-image: url(../images/london.jpg);
+  background-size: cover
+}
+
+.madrid {
+  background-image: url(../images/madrid.jpg);
+  background-size: cover
+}
+
+.rome {
+  background-image: url(../images/rome.jpg);
+  background-size: cover
+}
+
 @media screen and (min-width: 575px){
    div {
     margin: 2%;
-    width: 48%;
+    width: 46%;
   }
 }
 
